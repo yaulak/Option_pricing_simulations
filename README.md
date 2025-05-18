@@ -6,7 +6,7 @@ This notebook implements European option pricing using a Monte Carlo simulation 
 - **Stock Price Simulation:** Uses geometric Brownian motion to generate many random stock price paths.
 - **Payoff Calculation:** Computes the option payoff at maturity (e.g., for a call: `max(S_T - K, 0)`).
 - **Discounting:** Averages the payoffs and discounts them back to the present using the risk-free rate.
-- **Variance Reduction (Optional):** Implements antithetic variates to improve simulation efficiency.
+
 
 ## How It Works
 1. **Simulate Stock Paths:**  
